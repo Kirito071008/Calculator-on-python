@@ -14,7 +14,7 @@ while True:
         s1 = (math.sqrt(n1))
         print(s1)
     elif i1 == "the round of a number" or i1 == "3":
-        n1 = int(input("What number do you want to round? "))
+        n1 = float(input("What number do you want to round? "))
         q1 = str(input("Do you want to round for excess or for defect? "))
         if q1 == "excess" or q1 == "Excess":
             s1 = (math.ceil(n1))
