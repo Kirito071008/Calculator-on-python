@@ -2,7 +2,7 @@
 A calculator created by using python
 # New Update!
 Now the calculator have a new section called physics, for now in this section you can only Convert km/h to m/s or m/s to km/h,
-maybe in future you can do some formulas
+maybe in future he will do some formulas
 # How does it work?
 The scipt allow you do some math operation, for now he can do
 ```
