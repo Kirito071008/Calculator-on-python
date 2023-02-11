@@ -3,9 +3,9 @@ print("Made by @Kirito071008")
 import math
 while True:
     print("If you want to stop the calculator type (stop)")
-    e1 = input("Do you want to do 1)math or 2)physics?")
+    e1 = input("Do you want to do:\n 1)math\n 2)physics?")
     if e1 == "math" or e1 == "1":        
-         i1 = input("Do you want to do: 1)raise a number by a power 2)the square root of a number 3)the round of a number 4)how further is a number from zero 5) simple math function?")
+         i1 = input("Do you want to do:\n 1)raise a number by a power\n 2)the square root of a number\n 3)the round of a number\n 4)how further is a number from zero\n 5) simple math function?")
          if i1 == "raise a number by a power" or i1 == "1":
           n1 = int(input("What's the number you want to raise? "))
           p1 = int(input("What's the value of the power? "))
@@ -186,20 +186,19 @@ while True:
                 print(s1)
             #combinations yet to be tested
     elif e1 == "2":
-        i1 = input("Do you want to: 1)Convert km/h to m/s and m/s to km/h?")
-        if i1 == "Convert km/h to m/s and m/s to km/h?" or i1 == "1":
-             q2 = input("1) convert km/h to m/s or 2) m/s to km/h?")
+        i1 = input("Do you want to:\n 1)Convert\n 2) Use formulas")
+        if i1 == "Convert" or i1 == "convert" or i1 == "CONVERT" or i1 == "1":
+             q2 = input("1)convert km/h to m/s or 2)m/s to km/h?")
              if q2 == "convert km/h to m/s" or q2 == "1":
               n2 = float(input("What's the number you want to convert?"))
               n3 = float("3.6")
               s1 = n2 / n3
               print(s1)
-             elif q2 == " m/s to km/h?" or q2 == "2":
+             elif q2 == "m/s to km/h?" or q2 == "2":
               n2 = float(input("What's the number you want to convert?"))
               n3 = float("3.6")
               s1 = n2 * n3
               print(s1)
 
-    elif e1 == "stop" or i1 == "Stop" or i1 == "STOP":  
+    elif e1 == "stop" or e1 == "Stop" or e1 == "STOP" or i1 == "stop" or i1 == "Stop" or i1 == "STOP":  
         break
-        
