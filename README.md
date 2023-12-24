@@ -2,8 +2,10 @@
 A calculator created by using python
 # New Update!
 12/24/2023
-Code optimization
+Code optimization.
+
 Added a solver for Quadratic equations
+
 -----------------------------------------------------------------------------------------------------------------------
 Now the calculator have a new section called physics, for now in this section you can only Convert km/h to m/s or m/s to km/h,
 maybe in the future she will able to do some formulas
