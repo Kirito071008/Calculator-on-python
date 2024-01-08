@@ -14,7 +14,7 @@ def menu():
         print("Invalid input")
 def mat():
     x = input("Do you want to do:\n1)1 Normal calculator\n2) Quadratic equations\n")
-    if x.lower() == "raise a number by a power" or x == "1":
+    if x.lower() == "normal calculator" or x == "1":
         while True:
             try:
                 x = (input("Write your equation:\n"))
