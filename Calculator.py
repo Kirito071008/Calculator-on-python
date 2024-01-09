@@ -28,7 +28,7 @@ def mat():
               a1 = int(input("First number:\t"))
               b1 = int(input("Second:\t"))
               c1 = int(input("Third:\t"))
-              ss = B1**2 - 4*a1*c1
+              ss = b1**2 - 4*a1*c1
               if ss < int(0):
                   print("Δ<0, sorry but i can't solve this :(")
                   menu()
