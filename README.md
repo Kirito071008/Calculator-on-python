@@ -12,12 +12,9 @@ maybe in the future she will able to do some formulas
 # How does it work?
 The scipt allow you do some math operation, for now he can do
 ```
-1) Square root
-2) Raise a number by a power
-3) Round a number for excess or defect
-4) How further a number is from zero
-5) Simple math operation
-* NEW 6) Convert km/h to m/s or m/s to km/h
+1) Normal calculator 
+* NEW 2) Quadratic equations
+3) Convert km/h to m/s or m/s to km/h
 ```
 # Still in beta
 For now this is all he can do, there will be future update 
